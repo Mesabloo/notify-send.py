@@ -7,7 +7,7 @@ setup(
     version="1.2.3",
     packages=find_namespace_packages(where='notify_send_py'),
     install_requires=[
-        "dbus-python==1.2.16",
+        "dbus-python==1.2.12",
         "notify2==0.3.1",
         "pygobject==3.34.0"
     ],
