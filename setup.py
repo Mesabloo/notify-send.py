@@ -14,7 +14,7 @@ setup(
     package_dir={'': 'notify_send_py'},
     entry_points={
         'console_scripts': [
-            'notify-send = notify-send:main'
+            'notify-send = notify_send_py:main'
         ]
     },
     python_requires=">=3.6"
